@@ -1,0 +1,48 @@
+*{
+    margin: 0; 
+    padding: 0; 
+}
+
+body{
+  font-family: "Comic Relief", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 2%;
+}
+
+#inicio{
+  display: flex;
+  justify-content: space-between; /* asigna un espacio de separación entre h1 y nav de manera que ocupen el ancho del contenedor */
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+#inicio nav ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+
+#contacto{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#contacto ul{
+  flex: 1 1 260px;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  list-style: none;
+}
